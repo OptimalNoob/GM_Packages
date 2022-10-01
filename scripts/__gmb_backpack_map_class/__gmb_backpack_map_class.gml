@@ -59,7 +59,7 @@ function backpack_map(_name) constructor {
 		
 		if(arr_w > 2) return -1; // Array has more than 2 columns.
 		else if(is_undefined(arr_w)) { // Array has 1 column exactly.
-			sdm("Adding Items from 1D Array");
+			show_debug_message("Adding Items from 1D Array");
 			var r = 0;
 			repeat(arr_size - 1){
 				addItem(arr[r], 1);
@@ -67,8 +67,8 @@ function backpack_map(_name) constructor {
 			}
 		}
 		else { // Array has 2 columns exactly.
-			sdm("Adding Items from 2D Array");
-			sdm("Array is " + string(arr_size) + " in size.")
+			show_debug_message("Adding Items from 2D Array");
+			show_debug_message("Array is " + string(arr_size) + " in size.")
 			var r = 0;
 			repeat(arr_size){
 				addItem(arr[r][0], arr[r][1]);

@@ -31,7 +31,7 @@ function item_table_class (_name, width = 3) constructor {
 		// Check if this is a new Grid
 		if(gridh != 0){
 			// Check if the item already exists, add the item if it doesn't exist, return message and -1 if it does.
-			if(!ds_grid_value_exists(items, 0, 0, 0, gridh - 1, argument[0]){
+			if(!ds_grid_value_exists(items, 0, 0, 0, gridh - 1, argument[0])){
 				ds_grid_resize(items, gridw, gridh + 1); // Resize Grid to fit new item (add another row basically).
 				var gridh = ds_grid_height(items); // Recheck the Grid height for the loop.
 				r = 0;
@@ -57,7 +57,24 @@ function item_table_class (_name, width = 3) constructor {
 	}
 	
 	static itemRegisterFromArray = function (arr) {
+		var arrl = array_length(arr);
+		var arrw = array_length(arr[0]);
+		var gridw = ds_grid_width(items), gridh = ds_grid_height(items);
 		
+		if(arrw > gridw || is_undefined(arrw)) return -1; // Array has more columns than the table or is 1D, cannot add items.
+		else {
+			r = 0;
+			repeat(arrl) {
+				ds_grid_resize(items, gridw, gridh + 1)
+				gridh = ds_grid_height(items);
+				xx = 0;
+				repeat(arrw) {
+					items[# xx, gridh] = arr[r][xx];
+					xx++;
+				}
+				r++;
+			}
+		}
 	}
 	
 }
