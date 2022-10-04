@@ -1,7 +1,7 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "rmDev",
+  "name": "rmDev01",
   "isDnd": false,
   "volume": 1.0,
   "parentRoom": null,
@@ -25,7 +25,7 @@
   "creationCodeFile": "${project_dir}/rooms/rmDev/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_306DC7DE","path":"rooms/rmDev/rmDev.yy",},
+    {"name":"inst_306DC7DE","path":"rooms/rmDev01/rmDev01.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -49,7 +49,7 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "GMPackages",
-    "path": "GMPackages.yyp",
+    "name": "testing",
+    "path": "folders/testing.yy",
   },
 }

@@ -1,5 +1,5 @@
-function input_handler() constructor { 
-	static key = {
+function inputHandler() constructor { 
+	static keyHold = {
 		up :	function () { return keyboard_check(KeyboardInputs[KI.UP]) },
 		down :	function () { return keyboard_check(KeyboardInputs[KI.DOWN]) },
 		left :	function () { return keyboard_check(KeyboardInputs[KI.LEFT]) },

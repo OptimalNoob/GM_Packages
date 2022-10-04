@@ -1,11 +1,11 @@
-///@func backpack_grid(name, fixed_size)
+///@func backpackGrid(name, fixed_size)
 ///@pure
 ///@context constructor
 ///@arg {Any} name			| ID/Name of backpack
 ///@arg {Bool} [fixed_size]	| Whether or not the Backpack has a max size for items. [Default: False]
 ///
 ///@desc	| Creates new Backpack Grid Instance for managing inventory and items.
-function backpack_grid(_name, _fixed_size = false) constructor {
+function backpackGrid(_name, _fixed_size = false) constructor {
 	static name = "backpack_" + string(_name);
 	static contents = ds_grid_create(2, 0);
 	
@@ -72,14 +72,14 @@ function backpack_grid(_name, _fixed_size = false) constructor {
 		}
 	}
 	
-	///@func addItemsFromArray(arr)
+	///@func				addItemsFromArray(arr)
 	///@arg {Array<Any>}	| Array to add items from.
 	///
-	///@desc	| Add items from an array.
-	///
-	///			| 1D Arrays should be a list of items, of which 1 of each will be added.
-	///
-	///			| 2D Arrays should contain an item and amount in each row to be added.
+	///@desc				| Add items from an array.
+	///						
+	///						| 1D Arrays should be a list of items, of which 1 of each will be added.
+	///						
+	///						| 2D Arrays should contain an item and amount in each row to be added.
 	static addItemsFromArray = function (arr) {
 		var arrl = array_length(arr);
 		var arrw = array_length(arr[0]);
@@ -101,10 +101,10 @@ function backpack_grid(_name, _fixed_size = false) constructor {
 		
 	}
 	
-	///@func	addItemsFromList(dslist)
+	///@func						addItemsFromList(dslist)
 	///@arg {Id.DsList<Any>} dslist	| DS List to add items from.
 	///
-	///@desc	| Adds 1 of each item from a DS List.
+	///@desc						| Adds 1 of each item from a DS List.
 	static addItemsFromList = function (dslist) {
 		var listl = ds_list_size(dslist);
 		r = 0;
@@ -118,12 +118,12 @@ function backpack_grid(_name, _fixed_size = false) constructor {
 	///@arg {Any} item		| Item to be removed.
 	///@arg {Real} amount	| How many of the item to remove.
 	///
-	///@desc	| Removes a specific amount of an item from the Backpack.
-	///
-	///			| If the item is successfully removed, returns the remaining amount of the item.
-	///
-	///			| Returns -1 if the item can't be found or if the requested amount of
-	///			| the item is greater than the actual number of the item in the Backpack.
+	///@desc				| Removes a specific amount of an item from the Backpack.
+	///						
+	///						| If the item is successfully removed, returns the remaining amount of the item.
+	///						
+	///						| Returns -1 if the item can't be found or if the requested amount of
+	///						| the item is greater than the actual number of the item in the Backpack.
 	///@return {Real}
 	static removeItem = function (_item, _amount) {
 		var gridh = ds_grid_height(contents), gridw = ds_grid_width(contents);

@@ -1,8 +1,8 @@
-///@func				backpack_list(_name)
+///@func				backpackList(_name)
 ///@arg {Any} _name		| Main ID of the Backpack.
 ///
 ///@description			| Backpack Class Init
-function backpack_list(_name) constructor {
+function backpackList(_name) constructor {
 	
 	#region //** OBJECT VARIABLES **//
 	

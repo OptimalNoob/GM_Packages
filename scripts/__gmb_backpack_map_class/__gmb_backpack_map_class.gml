@@ -1,11 +1,11 @@
-///@func				backpack_map(_name)
+///@func				backpackMap(_name)
 ///@arg {Any} _name		| Main ID of the Backpack. 
 ///
 ///@description			| Creates a Backpack instance that uses a
 ///						| DS Map datastructure for managing the inventory.
 ///
 ///						| *Used for backpacks with stackable items.
-function backpack_map(_name) constructor {
+function backpackMap(_name) constructor {
 	
 	#region //** OBJECT VARIABLES **//
 	

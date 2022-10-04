@@ -1,5 +1,5 @@
 ///		MACROS
-
+#macro ITEMTABLE_SPRITECOL 2;
 
 ///		ENUMS
 enum ITEMTABLE {

@@ -1,0 +1,41 @@
+Dialog System needs the following features:
+
+Escape Characters:
+	& - Color
+	# - Font
+	$[char]_ - Command/Script/Function
+	% - 
+	@ - 
+	
+> Draw text with in-line format codes
+	e.g.,:
+		var color_var = make_color_rdg(255, 60, 73);
+		dialog = "This is [&color_var][%fntDefault]colored text!"
+
+> Draw text with in-line command codes
+	e.g.,:
+		dialog = "This is text that updates a flag! [$FS:3:5][$FI:3:1]
+		
+		[$FS:3:5] - Execute [FlagSet] on [Flag:3] to [Value:5]
+		[$FI:4:2] - Execute [FlagInc] on [Flag:4] by [Value:2]
+		
+		
+
+
+> Begin cutscenes inline:
+	e.g.,:
+		dialog = "This is dialog that starts a cutscene![$CS:CutsceneName]"
+		[$CS:SeqName] - Begins Cutscene Sequence : <SeqName>
+
+
+
+enum FLAG {
+	NPC,	//0		\
+	ENEMY,	//1		 |
+	PLAYER,	//2		 |
+	HECTOR	//3		/
+}
+
+
+
+
