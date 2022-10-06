@@ -1,5 +1,2160 @@
-{1:1} All text after the marker will be considered a comment.
-	1> Line Text
-	2> Line Text
-	3> Line Text
-	4> Line Text
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.
+{1=1} Checking if Flag 1 equals 1.
+	1> Flag 1 = 1
+	2> This is text in the first flag.
+	3> Finishing this dialog will increment this NPCs Flag by 1.
+	216> This is the line that will do it. [$FI:1:1]
+{1=2}
+	1> The flag has been incremented.
+	2> This is new text that only appears once the flag has reached 2.

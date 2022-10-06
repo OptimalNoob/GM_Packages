@@ -33,7 +33,7 @@ function init_3d(){
 ///@arg {Id.VertexFormat}	format			| Vertex Format to submit vertices to.
 ///
 ///@description								| Import vertex information from .obj Filetype. Takes in a filepath
-///											| to the obj file,an optional path toan MTL file (use -1 if no MTL
+///											| to the obj file,an optional path to an MTL file (use -1 if no MTL
 ///											| file is provided Generates a vertex buffer, populates with vertex
 ///											| Position, UV, and Normal data, and returns the buffer
 ///@return {Id.VertexBuffer}
