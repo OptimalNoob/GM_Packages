@@ -1,33 +1,33 @@
-///@func backpackGrid(name, fixed_size)
-///@pure
-///@context constructor
-///@arg {Any} name			| ID/Name of backpack
-///@arg {Bool} [fixed_size]	| Whether or not the Backpack has a max size for items. [Default: False]
+/// @function backpackGrid(name, fixed_size)
+/// @pure
+/// @context constructor
+/// @arg {Any} name			| ID/Name of backpack
+/// @arg {Bool} [fixed_size]	| Whether or not the Backpack has a max size for items. [Default: False]
 ///
-///@desc	| Creates new Backpack Grid Instance for managing inventory and items.
+/// @description	| Creates new Backpack Grid Instance for managing inventory and items.
 function backpackGrid(_name, _fixed_size = false) constructor {
 	static name = "backpack_" + string(_name);
 	static contents = ds_grid_create(2, 0);
 	
-	///@pure
-	///@desc	| Used to get backpack name
+	/// @pure
+	/// @description	| Used to get backpack name
 	static toString = function () {
 		return string(name);
 	}
 	
-	///@pure
-	///@desc	| Get size/height of Backpack (Total number of unique items)
+	/// @pure
+	/// @description	| Get size/height of Backpack (Total number of unique items)
 	static getSize = function () {
 		return ds_grid_height(contents);
 	}
 	
-	///@func getItemCount(item)
-	///@arg {Any} item	| Item to get count of.
+	/// @function getItemCount(item)
+	/// @arg {Any} item	| Item to get count of.
 	///
-	///@desc	| Get the amount of an item in the Backpack.
+	/// @description	| Get the amount of an item in the Backpack.
 	///
 	///			| Returns -1 if item isn't found.
-	///@return {Real}
+	/// @return {Real}
 	static getItemCount = function (_item) {
 		var gridh = ds_grid_height(contents);
 		var item_row = ds_grid_value_y(contents, 0, 0, 0, gridh - 1, _item);
@@ -36,21 +36,21 @@ function backpackGrid(_name, _fixed_size = false) constructor {
 		return item_count;
 	}
 	
-	///@func	sortItems(col, asc)
-	///@arg {Real} [col]	| Column index to sort by. [Default: 0]
-	///@arg {Bool} [asc]	| Sort by Ascending order. [Default: True]
+	/// @function	sortItems(col, asc)
+	/// @arg {Real} [col]	| Column index to sort by. [Default: 0]
+	/// @arg {Bool} [asc]	| Sort by Ascending order. [Default: True]
 	///
-	///@desc	| Sort the items in the Backpack, both arguments are optional.
+	/// @description	| Sort the items in the Backpack, both arguments are optional.
 	///
 	///			| Default sort is by the first column, ascending.
 	static sortItems = function (col = BPCOL.NAME, asc = true) {
 		ds_grid_sort(contents, col, asc);
 	}
 	
-	///@func addItem(item, amount)
-	///@arg {Any} item	| Item to be added to the Backpack.
-	///@arg {Real} amount	| Amount of the item to be added.
-	///@desc	| Adds a single item of varying quantity to the Backpack.
+	/// @function addItem(item, amount)
+	/// @arg {Any} item	| Item to be added to the Backpack.
+	/// @arg {Real} amount	| Amount of the item to be added.
+	/// @description	| Adds a single item of varying quantity to the Backpack.
 	static addItem = function (_item, _amount) {
 		var gridh = ds_grid_height(contents), gridw = ds_grid_height(contents);
 		
@@ -72,10 +72,10 @@ function backpackGrid(_name, _fixed_size = false) constructor {
 		}
 	}
 	
-	///@func				addItemsFromArray(arr)
-	///@arg {Array<Any>}	| Array to add items from.
+	/// @function				addItemsFromArray(arr)
+	/// @arg {Array<Any>}	| Array to add items from.
 	///
-	///@desc				| Add items from an array.
+	/// @description				| Add items from an array.
 	///						
 	///						| 1D Arrays should be a list of items, of which 1 of each will be added.
 	///						
@@ -101,10 +101,10 @@ function backpackGrid(_name, _fixed_size = false) constructor {
 		
 	}
 	
-	///@func						addItemsFromList(dslist)
-	///@arg {Id.DsList<Any>} dslist	| DS List to add items from.
+	/// @function						addItemsFromList(dslist)
+	/// @arg {Id.DsList<Any>} dslist	| DS List to add items from.
 	///
-	///@desc						| Adds 1 of each item from a DS List.
+	/// @description						| Adds 1 of each item from a DS List.
 	static addItemsFromList = function (dslist) {
 		var listl = ds_list_size(dslist);
 		r = 0;
@@ -114,17 +114,17 @@ function backpackGrid(_name, _fixed_size = false) constructor {
 		}
 	}
 	
-	///@func				removeItem(item, amount)
-	///@arg {Any} item		| Item to be removed.
-	///@arg {Real} amount	| How many of the item to remove.
+	/// @function				removeItem(item, amount)
+	/// @arg {Any} item		| Item to be removed.
+	/// @arg {Real} amount	| How many of the item to remove.
 	///
-	///@desc				| Removes a specific amount of an item from the Backpack.
+	/// @description				| Removes a specific amount of an item from the Backpack.
 	///						
 	///						| If the item is successfully removed, returns the remaining amount of the item.
 	///						
 	///						| Returns -1 if the item can't be found or if the requested amount of
 	///						| the item is greater than the actual number of the item in the Backpack.
-	///@return {Real}
+	/// @return {Real}
 	static removeItem = function (_item, _amount) {
 		var gridh = ds_grid_height(contents), gridw = ds_grid_width(contents);
 		var item_row = ds_grid_value_y(contents, 0, 0, 0, gridh - 1, _item);

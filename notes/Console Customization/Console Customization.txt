@@ -1,0 +1,17 @@
+You can customize the console by opening the RTShell Object
+click Variable Definitions in the Object Window and set the values.
+
+You can customize the colors, position, open keyboard shortcut, close shortcut,
+etc.
+
+Default Open: Ctrl+Shift+C
+Default Close: Esc
+Set Position and Size from Console: {
+	shell_set_anchor_v : sets the vertical anchor position
+	shell_set_anchor_h : sets the horizontal anchor position
+	shell_set_width : sets the width on screen (gui relative)
+	shell_set_height : sets the height on screen (gui relative)
+	
+	You can also edit the default anchors and sizes in the Variable Definitions in the object
+	seriously go check out Variable Definitions for all the customization.
+}

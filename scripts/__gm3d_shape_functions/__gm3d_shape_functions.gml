@@ -1,17 +1,17 @@
 #region		3D PRIMITIVE DRAWING FUNCTIONS
 
-///@function			vertex_add_point(buffer, xx, yy, zz, nx, ny, nz, utex, vtex, col, alph)
-///@arg {ref} buffer	| Vertex Buffer to add point to
-///@arg {real} xx		| X value of Position
-///@arg {real} yy		| Y value of Position
-///@arg {real} zz		| Z value of Position
-///@arg {real} nx		| X direction of Normal
-///@arg {real} ny		| Y direction of Normal
-///@arg {real} nz		| Z direction of Normal
-///@arg {real} utex		| U value of Texcoord (Between 0 and 1)
-///@arg {real} vtex		| V value of Texcoord (Between 0 and 1)
+/// @function			vertex_add_point(buffer, xx, yy, zz, nx, ny, nz, utex, vtex, col, alph)
+/// @arg {ref} buffer	| Vertex Buffer to add point to
+/// @arg {real} xx		| X value of Position
+/// @arg {real} yy		| Y value of Position
+/// @arg {real} zz		| Z value of Position
+/// @arg {real} nx		| X direction of Normal
+/// @arg {real} ny		| Y direction of Normal
+/// @arg {real} nz		| Z direction of Normal
+/// @arg {real} utex		| U value of Texcoord (Between 0 and 1)
+/// @arg {real} vtex		| V value of Texcoord (Between 0 and 1)
 ///
-/// @desc Adds a single Vertex in 3D Space
+/// @description Adds a single Vertex in 3D Space
 function vertex_add_point(buffer, xx, yy, zz, nx, ny, nz, utex, vtex, col, alph) {
 	vertex_position_3d(buffer, xx, yy, zz);
 	vertex_normal(buffer, nx, ny, nz);
@@ -19,16 +19,16 @@ function vertex_add_point(buffer, xx, yy, zz, nx, ny, nz, utex, vtex, col, alph)
 	vertex_color(buffer, col, alph);
 }
 
-///@function			draw_3d_cube(vbuf, xx, yy, zz, ww, ll, hh)
-///@param {ref} vbuf	| Vertex Buffer to add shape to
-///@param {real} xx		| X POS
-///@param {real} yy		| Y POS
-///@param {real} zz		| Z POS
-///@param {real} ww		| Width (X)
-///@param {real} ll		| Length (Z)
-///@param {real} hh		| Height (Y)
+/// @function			draw_3d_cube(vbuf, xx, yy, zz, ww, ll, hh)
+/// @param {ref} vbuf	| Vertex Buffer to add shape to
+/// @param {real} xx		| X POS
+/// @param {real} yy		| Y POS
+/// @param {real} zz		| Z POS
+/// @param {real} ww		| Width (X)
+/// @param {real} ll		| Length (Z)
+/// @param {real} hh		| Height (Y)
 ///
-/// @desc Adds Cube Primitive in 3D space
+/// @description Adds Cube Primitive in 3D space
 function draw_3d_cube(vbuf, xx, yy, zz, ww, ll, hh){
 	var x1, x2, y1, y2, z1, z2, rw, rl, rh;
 	var c1 = make_color_rgb(255, 255, 255); //		\

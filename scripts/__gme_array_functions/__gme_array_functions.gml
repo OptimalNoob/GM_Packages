@@ -1,12 +1,12 @@
-///@func concatenate_arrays(array1, array2)
-///@arg {Array<Any>} array1	| First Array
-///@arg {Array<Any>} array2	| Second Array
+/// @function concatenate_arrays(array1, array2)
+/// @arg {Array<Any>} array1	| First Array
+/// @arg {Array<Any>} array2	| Second Array
 ///
-///@desc	| Combines 2 1D Arrays into a single 2D Array
+/// @description	| Combines 2 1D Arrays into a single 2D Array
 ///
 ///			| Both Input Arrays MUST be the same length,
 ///			| Returns -1 if they are not.
-///@returns {Array<Array<Any>}
+/// @returns {Array<Array<Any>}
 function concatenate_arrays(array1, array2) {
 	var array_out = [];
 	var arrl1 = array_length(array1)

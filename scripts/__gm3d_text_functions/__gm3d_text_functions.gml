@@ -1,14 +1,14 @@
 #region		3D TEXT FUNCTIONS
 
-///@function draw_text_billboard
-///@arg {Real}				sxx		| X Position in World Space
-///@arg {Real}				yy		| Y Position in World Space
-///@arg {Real}				zz		| Z Position in World Space
-///@arg {Constant.Font}		fnt		| Font used for text
-///@arg {Constant.Color}	col		| Color of text
-///@arg {String}			txt		| Text to be drawn
+/// @function draw_text_billboard
+/// @arg {Real}				sxx		| X Position in World Space
+/// @arg {Real}				yy		| Y Position in World Space
+/// @arg {Real}				zz		| Z Position in World Space
+/// @arg {Constant.Font}		fnt		| Font used for text
+/// @arg {Constant.Color}	col		| Color of text
+/// @arg {String}			txt		| Text to be drawn
 ///
-///@description						| Writes text to screen-space based on provided world-space coordinated.
+/// @description						| Writes text to screen-space based on provided world-space coordinated.
 ///									| IMPORTANT: USED IN DRAW_GUI EVENT
 function draw_text_billboard(xx, yy, zz, fnt, col, txt) {
 	var name_pos = world_to_screen(xx, yy, zz, camera_get_view_mat(Camera3D), camera_get_proj_mat(Camera3D));
@@ -25,17 +25,17 @@ function draw_text_billboard(xx, yy, zz, fnt, col, txt) {
 
 #region		UTILITY FUNCTIONS
 
-///@function					world_to_screen(xx, yy, zz, view_mat, proj_mat)
-///@arg {Real}	xx				| X Position
-///@arg {Real}	yy				| Y Position
-///@arg {Real}	zz				| Z Position
-///@arg {Array<Real>} view_mat	| View Matrix of Active Camera
-///@arg {Array<Real>} proj_mat	| Projection Matrix of Active Camera
+/// @function					world_to_screen(xx, yy, zz, view_mat, proj_mat)
+/// @arg {Real}	xx				| X Position
+/// @arg {Real}	yy				| Y Position
+/// @arg {Real}	zz				| Z Position
+/// @arg {Array<Real>} view_mat	| View Matrix of Active Camera
+/// @arg {Array<Real>} proj_mat	| Projection Matrix of Active Camera
 ///
-///@description					| Transforms a 3D world-space coordinate to a 2D window-space coordinate.
+/// @description					| Transforms a 3D world-space coordinate to a 2D window-space coordinate.
 ///								| Returns an array of [xx, yy]
 ///								| Returns [-1, -1] if the 3D point is not in view
-///@return {Array<Real>}
+/// @return {Array<Real>}
 function world_to_screen(xx, yy, zz, view_mat, proj_mat){
 	if (proj_mat[15] == 0) {	// If using perspective projection
 	    var w = view_mat[2] * xx + view_mat[6] * yy + view_mat[10] * zz + view_mat[14];

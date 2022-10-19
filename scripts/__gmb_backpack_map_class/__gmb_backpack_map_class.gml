@@ -1,7 +1,7 @@
-///@func				backpackMap(_name)
-///@arg {Any} _name		| Main ID of the Backpack. 
+/// @function				backpackMap(_name)
+/// @arg {Any} _name		| Main ID of the Backpack. 
 ///
-///@description			| Creates a Backpack instance that uses a
+/// @description			| Creates a Backpack instance that uses a
 ///						| DS Map datastructure for managing the inventory.
 ///
 ///						| *Used for backpacks with stackable items.
@@ -17,24 +17,24 @@ function backpackMap(_name) constructor {
 	
 	#region //** OBJECT METHODS **//
 	
-	///@desc	| Returns size of backpack.
-	///@return {Real}
+	/// @description	| Returns size of backpack.
+	/// @return {Real}
 	static getSize = function (){
 		return ds_map_size(contents);
 	}
 	
-	///@desc Get backpack name
-	///@return {String}
+	/// @description Get backpack name
+	/// @return {String}
 	static toString = function () {
 		return string(name)
 	}
 	
 	#region		ADDER METHODS
 	
-	///@arg {Any} item		| Item to add to Backpack.
-	///@arg {Real} amount	| Amount of items to add.
+	/// @arg {Any} item		| Item to add to Backpack.
+	/// @arg {Real} amount	| Amount of items to add.
 	///
-	///@desc				| Adds an Item of a specified amount to the Backpack.
+	/// @description				| Adds an Item of a specified amount to the Backpack.
 	static addItem = function (item, amount) {
 		var item_exists = ds_map_find_value(contents, item)
 		
@@ -42,9 +42,9 @@ function backpackMap(_name) constructor {
 		else ds_map_add(contents, item, amount);
 	}
 	
-	///@arg {array} arr		| Array to add items from.
+	/// @arg {array} arr		| Array to add items from.
 	///
-	///@desc				| Add multiple items to backpack,
+	/// @description				| Add multiple items to backpack,
 	///						| from an array.
 	///						
 	///						| If array is 1D, 1 of each item will be added.
@@ -77,9 +77,9 @@ function backpackMap(_name) constructor {
 		}
 	}
 	
-	///@arg {Id.DsList} dslist		| DS List to add items from.
+	/// @arg {Id.DsList} dslist		| DS List to add items from.
 	///
-	///@desc						| Add 1 item each from a ds_list.
+	/// @description						| Add 1 item each from a ds_list.
 	static addItemsFromList = function (dslist) {
 		
 		var list_size = ds_list_size(dslist);
@@ -94,16 +94,16 @@ function backpackMap(_name) constructor {
 	
 	#region		REMOVER METHODS
 	
-	///@arg {Any} item			| Item to remove from Backpack
-	///@arg {Real} amount		| Amount of the item to remove
+	/// @arg {Any} item			| Item to remove from Backpack
+	/// @arg {Real} amount		| Amount of the item to remove
 	///
-	///@description				| Removes an item from the backpack contents,
+	/// @description				| Removes an item from the backpack contents,
 	///							| returns reference to item that was removed.
 	///
 	///							| If all of the item is removed, deletes the entry from the backpack.
 	///
 	///							| Returns -1 if item doesn't exist.
-	///@returns {Any}
+	/// @returns {Any}
 	static removeItem = function (item, amount) {
 		var item_count = ds_map_find_value(contents, item);
 		if(is_undefined(item_count) || amount > item_count) return -1;
@@ -118,10 +118,10 @@ function backpackMap(_name) constructor {
 	
 	#region		GETTER METHODS
 	
-	///@desc	| Get a 2D Array of all Items and Counts from Backpack.
+	/// @description	| Get a 2D Array of all Items and Counts from Backpack.
 	///
 	///			| Returns -1 if Backpack is empty.
-	///@returns {Array<Array<Any>>}
+	/// @returns {Array<Array<Any>>}
 	static getItems = function () {
 		var key_array = [], value_array = [], kv_array = [], map_length = 0;
 		ds_map_keys_to_array(contents, key_array);
@@ -140,9 +140,9 @@ function backpackMap(_name) constructor {
 		}
 	}
 	
-	///@arg {Any}
-	///@desc Get item count, returns -1 if none found.
-	///@return {Real}
+	/// @arg {Any}
+	/// @description Get item count, returns -1 if none found.
+	/// @return {Real}
 	static getItemCount = function (item) {
 		var item_count = ds_map_find_value(contents, item);
 		if(is_undefined(item_count)) return -1;

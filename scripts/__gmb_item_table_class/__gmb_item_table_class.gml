@@ -1,7 +1,7 @@
-///@func	itemTable(_name, width = 3)
-///@arg {Real} width	| Number of columns in the item table.
+/// @function	itemTable(_name, width = 3)
+/// @arg {Real} width	| Number of columns in the item table.
 ///
-///@desc	| Item Table Class for storing a list of all items in the game.
+/// @description	| Item Table Class for storing a list of all items in the game.
 ///			| Will be used with item_reigster() to add items to the list.
 ///
 ///			| Width determines the table column count. Each column is an item field for data.
@@ -10,18 +10,18 @@ function itemTable(_name, _width = 3) constructor {
 	static name = "itemTable_" + string(_name);
 	static items = ds_grid_create(width, 0);
 	
-	///@desc	| Get the name of the table.
+	/// @description	| Get the name of the table.
 	static toString = function () {
 		return string(name);
 	}
 	
-	///@desc	| Get the size of the table
+	/// @description	| Get the size of the table
 	static getSize = function () {
 		return ds_grid_height(items);
 	}
 	
-	///@desc
-	///@arg {...*} var_args
+	/// @description
+	/// @arg {...*} var_args
 	static registerItem = function () {
 		// If more arguments are provided than there are columns in the item table.
 		if(argument_count > width) {
@@ -59,7 +59,7 @@ function itemTable(_name, _width = 3) constructor {
 		}
 	}
 	
-	///@arg {Array<Any>} arr	| Array to import items from.
+	/// @arg {Array<Any>} arr	| Array to import items from.
 	static registerItemsFromArray = function (arr) {
 		var arrl = array_length(arr);
 		var arrw = array_length(arr[0]);

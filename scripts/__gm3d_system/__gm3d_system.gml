@@ -1,9 +1,9 @@
 gml_pragma("global", "init_3d()"); // Init 3D during compile.
 #region		INIT 3D ENVIRONMENT
 
-///@function		init_3d()
+/// @function		init_3d()
 ///
-///@description		| Enables the 3D environment
+/// @description		| Enables the 3D environment
 ///					| Creates global vertex format for submitting buffers
 function init_3d(){
 	
@@ -27,16 +27,16 @@ function init_3d(){
 
 #region		IMPORT 3D MODELS TO VERTEX BUFFERS & CREATE CACHED BUFFER FILES
 
-///@function							import_obj(obj_name, mtl_filename, format)
-///@arg {Constant.File}		obj_filename	| OBJ file to read.
-///@arg {Constant.File}		mtl_filename	| MTL file to read. [optional, -1 if no MTL File]
-///@arg {Id.VertexFormat}	format			| Vertex Format to submit vertices to.
+/// @function							import_obj(obj_name, mtl_filename, format)
+/// @arg {Constant.File}		obj_filename	| OBJ file to read.
+/// @arg {Constant.File}		mtl_filename	| MTL file to read. [optional, -1 if no MTL File]
+/// @arg {Id.VertexFormat}	format			| Vertex Format to submit vertices to.
 ///
-///@description								| Import vertex information from .obj Filetype. Takes in a filepath
+/// @description								| Import vertex information from .obj Filetype. Takes in a filepath
 ///											| to the obj file,an optional path to an MTL file (use -1 if no MTL
 ///											| file is provided Generates a vertex buffer, populates with vertex
 ///											| Position, UV, and Normal data, and returns the buffer
-///@return {Id.VertexBuffer}
+/// @return {Id.VertexBuffer}
 function import_obj(obj_name, mtl_filename, format){
 	
 	// Open the file(s)

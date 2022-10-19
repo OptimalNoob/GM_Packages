@@ -1,8 +1,8 @@
-///@func				ds_grid_delete_column(grid, col)
-///@arg {grid} grid		| grid data structure
-///@arg {real} col		| column index
+/// @function				ds_grid_delete_column(grid, col)
+/// @arg {grid} grid		| grid data structure
+/// @arg {real} col		| column index
 ///
-///@description			| Deletes from a grid the column at a given
+/// @description			| Deletes from a grid the column at a given
 ///						| column index. The grid is reduced in width
 ///						| by one.
 ///
@@ -16,12 +16,12 @@ function ds_grid_delete_column(grid, col) {
     ds_grid_resize(grid, gridw - 1, gridh);
 }
 
-///@func				ds_grid_delete_row(grid, row)
+/// @function				ds_grid_delete_row(grid, row)
 ///
-///@arg {grid} grid		| grid data structure
-///@arg {real} row		| row index 
+/// @arg {grid} grid		| grid data structure
+/// @arg {real} row		| row index 
 ///
-///@description			| Deletes from a grid the row at a given row
+/// @description			| Deletes from a grid the row at a given row
 ///						| index. The grid is reduced in height by one.
 ///
 ///						| Warning: Attempting to delete a row from a grid
@@ -34,12 +34,12 @@ function ds_grid_delete_row(grid, row) {
     ds_grid_resize(grid, gridw, gridh - 1);
 }
 
-///@func				ds_grid_swap_columns(grid, col1, col2)
-///@arg {grid} grid		| grid data structure
-///@arg {real} col1		| 1st column of the exchange
-///@arg {real} col2		| 2nd column of the exchange
+/// @function				ds_grid_swap_columns(grid, col1, col2)
+/// @arg {grid} grid		| grid data structure
+/// @arg {real} col1		| 1st column of the exchange
+/// @arg {real} col2		| 2nd column of the exchange
 ///
-///@description			| Exchanges the contents of two entire grid columns. 
+/// @description			| Exchanges the contents of two entire grid columns. 
 function ds_grid_swap_columns(grid, col1, col2) {
     for (var i = 0; i < ds_grid_height(grid); i++) {
         var temp_grid = ds_grid_get(grid, col1, i);
@@ -48,12 +48,12 @@ function ds_grid_swap_columns(grid, col1, col2) {
     }
 }
 
-///@func				ds_grid_swap_rows(grid, row1, row2)
-///@arg {grid} grid		| grid data structure
-///@arg {real} row1		| 1st row of the exchange
-///@arg {real} row2		| 2nd row of the exchange
+/// @function ds_grid_swap_rows(grid, row1, row2)
+/// @arg {grid} grid | grid data structure
+/// @arg {real} row1 | 1st row of the exchange
+/// @arg {real} row2 | 2nd row of the exchange
 ///
-///@description			| Exchanges the contents of two entire grid rows.
+/// @description | Exchanges the contents of two entire grid rows. 
 function ds_grid_swap_rows(grid, row1, row2) {
     for (var i = 0; i < ds_grid_width(grid); i++) {
         var temp_grid = ds_grid_get(grid, i, row1);
@@ -61,3 +61,26 @@ function ds_grid_swap_rows(grid, row1, row2) {
         ds_grid_set(grid, i, row2, temp_grid);
     }
 }
+
+/// @function ds_grid_create_from_array(array);
+/// @arg {Array<Any>} array The array to create the DS Grid from.
+/// @description Generates a DS Grid from a passed array.
+function ds_grid_create_from_array(arr){
+	var ds_grid;
+	var array_l = array_length(arr);
+	var array_w = array_length(arr[0]);
+	
+	ds_grid = ds_grid_create(array_w, array_l);
+	
+	var yy = 0;
+	repeat(array_l){
+		var quest_array = arr[yy];
+		var xx = 0;
+		repeat(array_w){
+			ds_grid[# xx, yy] = quest_array[xx];
+			xx++;
+		}
+		yy++
+	}
+	return ds_grid;
+};

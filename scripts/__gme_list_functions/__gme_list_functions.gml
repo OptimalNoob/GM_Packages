@@ -1,7 +1,7 @@
-///@func			ds_list_flip(list)
-///@arg {list} list	| list data structure
+/// @function			ds_list_flip(list)
+/// @arg {list} list	| list data structure
 ///
-///@description		| Rearranges the values of a list in reverse order.
+/// @description		| Rearranges the values of a list in reverse order.
 function ds_list_flip(list) {
     for (var i = ds_list_size(list); i >= 0; i--) {
         ds_list_add(list, ds_list_find_value(list, i));
@@ -9,14 +9,14 @@ function ds_list_flip(list) {
     }
 }
 
-///@func				ds_list_max(list)
-///@arg {list} list		| list data structure
+/// @function				ds_list_max(list)
+/// @arg {list} list		| list data structure
 ///
-///@description			| Returns the maximum value in a list.
+/// @description			| Returns the maximum value in a list.
 ///						| If the list is empty, undefined is returned.
 ///						| All list elements must be comparable.
 ///
-///@return {any}
+/// @return {any}
 function ds_list_max(list) {
     var n = ds_list_size(list);
     var maxv = ds_list_find_value(list, 0);
@@ -29,14 +29,14 @@ function ds_list_max(list) {
     return maxv;
 }
 
-///@func			ds_list_min(list)
-///@arg {list} list	| list data structure
+/// @function			ds_list_min(list)
+/// @arg {list} list	| list data structure
 ///
-///@desc			| Returns the minimum value in a list.
+/// @description			| Returns the minimum value in a list.
 ///					| If the list is empty, undefined is returned.
 ///					| All list elements must be comparable.
 ///
-///@return {any}
+/// @return {any}
 function ds_list_min(list) {
     var n = ds_list_size(list);
     var minv = ds_list_find_value(list, 0);
@@ -49,14 +49,14 @@ function ds_list_min(list) {
     return minv;
 }
 
-///@func			ds_list_sum(list)
-///@arg {list} list	| list data structure
+/// @function			ds_list_sum(list)
+/// @arg {list} list	| list data structure
 ///
-///@description		| Returns the sum of all values in a list.
+/// @description		| Returns the sum of all values in a list.
 ///					| If the list is empty, undefined is returned.
 ///					| All list elements must be comparable.
 ///
-///@return {any}
+/// @return {any}
 function ds_list_sum(list) {
     var n = ds_list_size(list);
     var sum = ds_list_find_value(list, 0);
@@ -66,13 +66,13 @@ function ds_list_sum(list) {
     return sum;
 }
 
-///@func			ds_list_mean(list)
-///@arg {list} list	| list data structure
+/// @function			ds_list_mean(list)
+/// @arg {list} list	| list data structure
 ///
-///@description		| Returns the arithmetic mean of values in a list.
+/// @description		| Returns the arithmetic mean of values in a list.
 ///					| If the list is empty, undefined is returned.
 ///
-///@return {real}
+/// @return {real}
 function ds_list_mean(list) {
     var n = ds_list_size(list);
     if (n == 0) return undefined;
@@ -85,12 +85,12 @@ function ds_list_mean(list) {
     return avg;
 }
 
-///@func			ds_list_median(list)
-///@arg {list} list	| list data structure
+/// @function			ds_list_median(list)
+/// @arg {list} list	| list data structure
 ///
-///@description		| Returns the median of the values in the given list.
+/// @description		| Returns the median of the values in the given list.
 ///
-///@return {any}
+/// @return {any}
 function ds_list_median(list)
 {
     var n = ds_list_size(list);
@@ -106,3 +106,9 @@ function ds_list_median(list)
     return middle;
 }
 
+/// @function ds_list_create_filled()
+/// @arg {...*} var_args
+/// @description Used for creating a DSList prefill with data, passed as arguments.
+function ds_list_create_filled() {
+	var _newlist = ds_list_create();
+}
