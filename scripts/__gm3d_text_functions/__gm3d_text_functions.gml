@@ -1,5 +1,5 @@
-#region		3D TEXT FUNCTIONS
-
+/*  3D Text Drawing
+======================================== */
 /// @function draw_text_billboard
 /// @arg {Real}				sxx		| X Position in World Space
 /// @arg {Real}				yy		| Y Position in World Space
@@ -21,9 +21,8 @@ function draw_text_billboard(xx, yy, zz, fnt, col, txt) {
 	draw_text(name_pos[0], name_pos[1], txt);
 }
 
-#endregion
-
-#region		UTILITY FUNCTIONS
+/* Utility
+======================================== */
 
 /// @function					world_to_screen(xx, yy, zz, view_mat, proj_mat)
 /// @arg {Real}	xx				| X Position
@@ -49,5 +48,3 @@ function world_to_screen(xx, yy, zz, view_mat, proj_mat){
 
 	return [(0.5 + 0.5 * cx) * display_get_gui_width(), (0.5 - 0.5 * cy) * display_get_gui_height()];
 }
-
-#endregion

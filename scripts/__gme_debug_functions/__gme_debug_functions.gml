@@ -21,36 +21,16 @@ function show_debug_grid(_grid) {
 					case "String":
 						row_out += string(_grid[# xx, yy]);
 					break;
-					case asset_object:
-						row_out += object_get_name(_grid[# xx, yy]);
-					break;
-					case asset_sprite:
-						row_out += sprite_get_name(_grid[# xx, yy]);
-					break;
-					case asset_sound:
-						row_out += audio_get_name(_grid[# xx, yy]);
-					break;
-					case asset_room:
-						row_out += room_get_name(_grid[# xx, yy]);
-					break;
-					case asset_tiles:
-						row_out += tileset_get_name(_grid[# xx, yy]);
-					break;
-					case asset_path:
-						row_out += path_get_name(_grid[# xx, yy]);
-					break;
-					case asset_script:
-						row_out += script_get_name(_grid[# xx, yy]);
-					break;
-					case asset_font:
-						row_out += font_get_name(_grid[# xx, yy]);
-					break;
-					case asset_timeline:
-						row_out += timeline_get_name(_grid[# xx, yy]);
-					break;
-					case asset_shader:
-						row_out += shader_get_name(_grid[# xx, yy]);
-					break;
+					case asset_object: row_out += object_get_name(_grid[# xx, yy]); break;
+					case asset_sprite: row_out += sprite_get_name(_grid[# xx, yy]); break;
+					case asset_sound: row_out += audio_get_name(_grid[# xx, yy]); break;
+					case asset_room: row_out += room_get_name(_grid[# xx, yy]); break;
+					case asset_tiles: row_out += tileset_get_name(_grid[# xx, yy]); break;
+					case asset_path: row_out += path_get_name(_grid[# xx, yy]); break;
+					case asset_script: row_out += script_get_name(_grid[# xx, yy]); break;
+					case asset_font: row_out += font_get_name(_grid[# xx, yy]); break;
+					case asset_timeline: row_out += timeline_get_name(_grid[# xx, yy]); break;
+					case asset_shader: row_out += shader_get_name(_grid[# xx, yy]); break;
 					case asset_animationcurve:
 						var anim = animcurve_get(_grid[# xx, yy]);
 						row_out += string(anim.name);
@@ -59,12 +39,8 @@ function show_debug_grid(_grid) {
 						var seq = sequence_get(_grid[# xx, yy]);
 						row_out += string(seq.name);
 					break;
-					case asset_unknown:
-						row_out += string(_grid[# xx, yy]);
-					break;
-					default:
-						row_out += string(_grid[# xx, yy]);
-					break;
+					case asset_unknown: row_out += string(_grid[# xx, yy]); break;
+					default: row_out += string(_grid[# xx, yy]); break;
 				}
 			} else {
 				row_out += string(_grid[# xx, yy]);

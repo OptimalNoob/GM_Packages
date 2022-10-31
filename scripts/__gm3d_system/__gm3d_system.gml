@@ -1,8 +1,8 @@
-gml_pragma("global", "init_3d()"); // Init 3D during compile.
-#region		INIT 3D ENVIRONMENT
+/* 3D ENVIRONMENT
+======================================== */
 
-/// @function		init_3d()
-///
+gml_pragma("global", "init_3d()"); // Init 3D during compile.
+
 /// @description		| Enables the 3D environment
 ///					| Creates global vertex format for submitting buffers
 function init_3d(){
@@ -23,19 +23,14 @@ function init_3d(){
 	show_debug_message("Initialized GM 3D Environment :)");
 }
 
-#endregion
+/* MODEL IMPORT
+======================================== */
 
-#region		IMPORT 3D MODELS TO VERTEX BUFFERS & CREATE CACHED BUFFER FILES
-
-/// @function							import_obj(obj_name, mtl_filename, format)
 /// @arg {Constant.File}		obj_filename	| OBJ file to read.
 /// @arg {Constant.File}		mtl_filename	| MTL file to read. [optional, -1 if no MTL File]
-/// @arg {Id.VertexFormat}	format			| Vertex Format to submit vertices to.
+/// @arg {Id.VertexFormat}	format				| Vertex Format to submit vertices to.
 ///
-/// @description								| Import vertex information from .obj Filetype. Takes in a filepath
-///											| to the obj file,an optional path to an MTL file (use -1 if no MTL
-///											| file is provided Generates a vertex buffer, populates with vertex
-///											| Position, UV, and Normal data, and returns the buffer
+/// @description								| Import vertex information from .obj file and create a vertex buffer.
 /// @return {Id.VertexBuffer}
 function import_obj(obj_name, mtl_filename, format){
 	
@@ -213,20 +208,28 @@ function import_obj(obj_name, mtl_filename, format){
 	file_text_close(obj_file);
 	if(mtl_filename != -1) file_text_close(mtl_file);
 	
-	// Convert the Vertex Buffer to a Binary Buffer to be saved to a file.
-	// This makes importing the model faster via the Buffer file if it already exists.	
-	
+	// Cache model into a buffer file for faster successive imports	
 	var buffer_convert = buffer_create_from_vertex_buffer(model, buffer_fixed, 1);
-	///OLD : buffer_save(buffer_convert, "%USERFOLDER%\\Documents\\GameMakerStudio2\\Framework3d\\datafiles\\objbins\\" + string(obj_name) + ".vbuff");
-	//buffer_save(buffer_convert, string(environment_get_variable("USERPROFILE")) + "/Documents/GameMakerStudio2/Framework3d/datafiles/objbins/" + string(obj_name) + ".vbuff");
-	var paths = string(PROJDIR) + string(PATHBIN);
+	var path = string(PROJDIR) + "datafiles/" + string(PATHBIN);
 	var obj_filename = string(obj_name) + ".vbuff";
 	var final_path = paths + obj_filename;
-	
 	buffer_save(buffer_convert, final_path);
 	buffer_delete(buffer_convert);
 	
 	return model;
 }
 
-#endregion
+/// @arg {string} name		| Name of .obj file
+/// @description			| Get filepath to obj in datafiles
+function obj_get_path(objname){
+	var str_out = string(PATHOBJ) + string(objname) + ".obj"
+	return str_out;
+}
+
+/// @arg {string} name		| Name of .mtl file
+///
+/// @description			| Get filepath to mtl in datafiles
+function mtl_get_path(objname){
+	var str_out = string(PATHMTL) + string(objname) + ".mtl"
+	return str_out;
+}

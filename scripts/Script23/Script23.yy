@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "__gmb_backpack_map_class",
+  "name": "Script23",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

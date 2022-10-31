@@ -1,13 +1,11 @@
-#region		CONSTRUCTORS
+/* 3D MODELS
+======================================== */
 
-/// @function						attach_model3d(object_file, texture_source, use_mtl)
 /// @arg {string}	object_file		| Filename of .obj model
 /// @arg {resource}	texture_source	| Sprite used as texture
 /// @arg {bool}		use_mtl			| Choose to include .mtl file during .obj import
 ///
-/// @description						| Used for creating 3D Models to be used in Objects.
-///									| Will first check that a Cached Buffer file already exists (faster import),
-///									| if not then it will import the OBJ file provided (slower import).
+/// @description					| Attaches 3D model to object, importing from obj or cache file.
 function attach_model3d(object_file, texture_source, use_mtl) constructor {
 	// Used for debugging import time.
 	if(DEBUGMODELIMPORT) var t = get_timer();
@@ -31,34 +29,26 @@ function attach_model3d(object_file, texture_source, use_mtl) constructor {
 	if (DEBUGMODELIMPORT) show_debug_message("Loading Object: '" + string(object_file) + "' took " + string((get_timer() - t) / 1000) + " milliseconds");
 }
 
-/// @function				transform3d(xx, yy, zz, rx, ry, rz, sx, sy, sz)
-/// @arg {real} xx			| X Position
-/// @arg {real} yy			| Y Position
-/// @arg {real} zz			| Z Position
-/// @arg {real} rotation_x	| X Rotation (Degrees)
-/// @arg {real} rotation_y	| Y Rotation (Degrees)
-/// @arg {real} rotation_z	| Z Rotation (Degrees)
-/// @arg {real} scale_x		| X Scale
-/// @arg {real} scale_y		| Y Scale
-/// @arg {real} scale_z		| Z Scale
-///
-/// @description				| Used to create a Transform Matrix for handling Position, Rotationa and Scaling (for 3D Models/Objects)
+/// @arg {real} x			| X position
+/// @arg {real} y			| Y position
+/// @arg {real} z			| Z position
+/// @arg {real} rot_x		| X rotation in degrees
+/// @arg {real} rot_y		| Y rotation in degrees
+/// @arg {real} rot_z		| Z rotation in degrees
+/// @arg {real} scale_x		| X scale
+/// @arg {real} scale_y		| Y scale
+/// @arg {real} scale_z		| Z scale
+/// @description			| Creates a transform matrix for manipulating 3D models.
 function transform3d(xx, yy, zz, rx, ry, rz, sx, sy, sz) constructor {	
 	pos = { x : xx, y : yy, z : zz }
 	rot = { x : rx, y : ry, z : rz }
 	scale = { x : sx, y : sy, z : sz }
 }
 
-#endregion
-
-#region		MODEL MOVEMENT
-
-/// @function		apply_transform(_mesh, _texture)
-///
-/// @description		| Submit Vertex Buffer for Model.
-///					| Apply transformation matrix for Position, Rotation and Scale.
-function apply_transform(_mesh, _texture){
-	//if(FogEnabled) shader_set(sh_MainShader);
+/// @arg {Id.Mesh} mesh			| Mesh/Model to apply transformation to.
+/// @arg {Id.Texture} texture	| Texture of model, optional.
+/// @description				| Apply transformation and model data to vertex buffer.
+function apply_transform(_mesh, _texture = -1){
 	if(_texture != -1) var tex = sprite_get_texture(_texture, 0);
 	else var tex = -1;
 	
@@ -70,40 +60,10 @@ function apply_transform(_mesh, _texture){
 	matrix_set(matrix_world, mat);
 	vertex_submit(_mesh, pr_trianglelist, tex);
 	matrix_world_reset();
-	//shader_reset();
 }
 
-/// @function		matrix_world_reset()
-///
 /// @description		| Reset world matrix
 function matrix_world_reset(){
 	matrix_set(matrix_world, matrix_build_identity());
 }
 
-#endregion
-
-#region		PATH FUNCTIONS
-
-/// @function				obj_get_path(objname)
-/// @arg {string} objname	| Name of .obj model name
-///
-/// @description				| Returns filepath for obj file based on PATHOBJ Macro
-///							| and string in objname
-/// @return {string}
-function obj_get_path(objname){
-	var str_out = string(PATHOBJ) + string(objname) + ".obj"
-	return str_out;
-}
-
-/// @function				mtl_get_path(objname)
-/// @arg {string} objname	| Name of .obj model name
-///
-/// @description				| Returns filepath for mtl file based on PATHOBJ Macro
-///							| and string in objname
-/// @return {string}
-function mtl_get_path(objname){
-	var str_out = string(PATHMTL) + string(objname) + ".mtl"
-	return str_out;
-}
-
-#endregion
